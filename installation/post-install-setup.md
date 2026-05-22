@@ -88,6 +88,22 @@ Create a Quick Action on Case for launching referral creation.
 ### Case Referral List View Button
 Create a custom button or link for launching the Case action from related contexts.
 
+#### Button URL
+/lightning/action/quick/Case.Partner_Search?objectApiName=Case&context=RECORD_DETAIL&recordId={!CASESAFEID(Case.Id)}&backgroundContext=%2Flightning%2Fr%2FCase%2F{!CASESAFEID(Case.Id)}%2Fview
+
+#### Optional Custom Button / Link
+
+Some orgs may choose to launch the Case Quick Action with a custom button or link. This approach should be considered optional and must be tested in the target org, as Lightning navigation behavior can vary by context.
+
+Example:
+
+/lightning/action/quick/Case.Partner_Search?recordId={!CASESAFEID(Case.Id)}
+
+#### What This Does
+- Opens the Partner Search quick action
+- Passes the current Case record ID
+- Returns the user to the Case record after completion
+
 ### Lightning Record Page
 Edit the Case Lightning Record Page:
 
