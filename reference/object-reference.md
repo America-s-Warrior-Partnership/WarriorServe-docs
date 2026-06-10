@@ -72,7 +72,7 @@ Standard Object for Case Tracking.
 - **Resume Attached** (`WarriorSrv__IsResumeAttached__c`) - *Checkbox*: Indicates that the individual's resume is attached to this case.
 - **Professional Category** (`WarriorSrv__ProfessionalCategoryPick__c`) - *Picklist*: The Profession of the individual.
 - **Professional Designator** (`WarriorSrv__ProfessionalDesignatorPick__c`) - *Picklist*: The Designation of the individual's profession.
-- **Record Type Name** (`WarriorSrv__RecordTypeNameAuto__c`) — *Formula(Text)*: Displays the record type name of the case. Used in Case Referral Automations.
+- **Record Type Label** (`WarriorSrv__RecordTypeNameAuto__c`) — *Formula(Text)*: Displays the record type name of the case. Used in Case Referral Automations.
 - **Salary/Wage Period** (`WarriorSrv__SalaryWagePeriodPick__c`) - *Picklist*: Time Period as applies to Salary/Wage
 - **Service Category** (`WarriorSrv__ServiceCategoryPick__c`) - *Picklist*: The subcategory of the case record type. Used with Condition Rating to show a color
 - **Shift Desired** (`WarriorSrv__ShiftDesiredPick__c`) - *Multi-Select Picklist*: Indicates the shift the individual desires.
@@ -150,7 +150,7 @@ Standard Object for contact's.
 - **Preferred Method of Contact** (`WarriorSrv__PreferredMethodOfContactPick__c`) — *Picklist*: Indicates the contact's preferred way to be contacted.
 - **Race** (`WarriorSrv__RacePick__c`) — *Picklist (Multi-Select)*: Indicates the racial identity of the contact.
 - **Record Age** (`WarriorSrv__RecordAgeAuto__c`) — *Formula(Number)*: Indicates the age of the contact in days.
-- **Record Type Name** (`WarriorSrv__RecordTypeNameAuto__c`) — *Formula(Text)*: Displays the record type by name, used in some formulas and integrations.
+- **Record Type Label** (`WarriorSrv__RecordTypeNameAuto__c`) — *Formula(Text)*: Displays the record type by name, used in some formulas and integrations.
 - **Service Record Count** (`WarriorSrv__ServiceRecordCountAuto__c`) — *Roll-Up Summary*: Number of Service Records Entered on the contact.
 - **Special Handling** (`WarriorSrv__SpecialHandlingPick__c`) — *Picklist (Multi-Select)*: Indicates information that might be needed when speaking with this contact.
 - **Title 38 Verification Status** (`WarriorSrv__Title38VerificationStatusPick__c`) — *Picklist*: Displays the result returned directly from VA systems during Title 38 verification. All values, including errors, originate from the VA and are not determined by WarriorServe. Some results may require action by the VA or the Veteran, not internal staff.
