@@ -1,7 +1,7 @@
 # CR-002 Record Type Name to Label
 
 ## Status
-Delivered Version 1.9
+Delivered Version 1.10
 
 ## Request Date 
 2026-06-09
