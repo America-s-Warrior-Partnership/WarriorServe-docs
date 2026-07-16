@@ -40,6 +40,9 @@ Create a permission set for staff users and grant access as needed.
 - Service Record
 - Event Log *(Read Only recommended)*
 
+### Recommended Named Credential Access
+- VA_API_Key - VA_API_Named_Principle
+
 Adjust Create, Read, Edit, Delete, and field-level security based on your operating model.
 
 ---
